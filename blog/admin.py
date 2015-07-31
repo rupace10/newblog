@@ -12,3 +12,4 @@ class EntryAdminh(MarkdownModelAdmin):
 	formfield_overrides = {TextField: {'widget': AdminMarkdownWidget}}
 
 admin.site.register(models.posts, EntryAdminh)
+admin.site.register(models.Tag)
